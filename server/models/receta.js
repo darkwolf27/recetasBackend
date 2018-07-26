@@ -70,6 +70,10 @@ let recetaSchema = new Schema({
     lipidos: {
         type: Number,
         required: false
+    },
+    estado: {
+        type: Boolean,
+        default: true
     }
 });
 
