@@ -43,6 +43,14 @@ let recetaSchema = new Schema({
         type: Boolean,
         default: false
     },
+    menu: {
+        type: Boolean,
+        default: false
+    },
+    menuPersona: {
+        type: String,
+        required: false
+    },
     fechaSubida: {
         type: Date,
         default: new Date()
